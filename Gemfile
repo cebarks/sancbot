@@ -8,5 +8,8 @@ gem 'discordrb'
 gem 'pry'
 gem 'rake'
 
-# Later for database mappings
-# gem 'sequel'
+
+#database stuff
+gem 'sequel'
+gem 'sqlite3'
+gem 'pg'
