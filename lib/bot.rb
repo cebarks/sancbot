@@ -16,8 +16,11 @@ bot.command :ping do |event|
 end
 
 bot.command :pry do |event|
-  binding.pry
-  nil
+  if ENV['SANCBOT_DEBUG'] == true
+    binding.pry
+  else
+    "This command is only available when running in debug mode."
+  end
 end
 
 bot.command :pshame do |event, user|
