@@ -10,6 +10,6 @@ gem 'rake'
 
 
 #database stuff
-gem 'sequel'
-gem 'sqlite3'
-gem 'pg'
+# gem 'sequel'
+# gem 'sqlite3'
+# gem 'pg'

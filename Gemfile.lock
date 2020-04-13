@@ -25,7 +25,6 @@ GEM
     netrc (0.11.0)
     opus-ruby (1.0.1)
       ffi
-    pg (1.2.3)
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -37,8 +36,6 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    sequel (5.31.0)
-    sqlite3 (1.4.2)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
@@ -52,11 +49,8 @@ PLATFORMS
 
 DEPENDENCIES
   discordrb
-  pg
   pry
   rake
-  sequel
-  sqlite3
 
 BUNDLED WITH
    1.17.2
