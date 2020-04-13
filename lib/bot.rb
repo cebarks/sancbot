@@ -3,13 +3,13 @@
 puts "Loading bot..."
 
 Bundler.require
-require_relative 'database'
+
 require_relative 'util'
 
 bot = Discordrb::Commands::CommandBot.new token: ENV['SANCBOT_TOKEN'], prefix: 's.'
 
 counter = Hash.new(0)
-db = Database.new(ENV['SANCBOT_DEBUG'])
+# db = Database.new(ENV['SANCBOT_DEBUG'])
 
 bot.command :ping do |event|
   event.respond 'Pong!'
